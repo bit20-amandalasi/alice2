@@ -1,0 +1,152 @@
+.header{
+    width: 100%;
+    background-image: url(images/background.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    position: relative;
+}
+nav{
+    text-align: right;
+    padding: 2% 2%;
+       
+}
+nav .logo{
+    float: left;
+}
+    
+nav ul li{
+    float: light;
+    display: inline;
+    list-style: none;
+    font-size: 14pt;
+    padding: 6px 8px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+       
+}
+nav ul li a{
+    color: rgb(211, 157, 68);
+    text-decoration: none;
+    list-style: none;
+    transition: 5s;
+}
+    
+nav ul li a:hover{
+    background-color: rgb(216, 151, 31);
+}
+.HOME{
+    margin-top: 5%;
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+
+}
+.image{
+    width: 14%;
+    height: 30vh;
+}
+.text-box{
+    padding: 2px 2px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+    color: aliceblue;
+    word-spacing: 2;
+}
+.text-box h1{
+    color: aliceblue;
+}
+.text-box h1 span{
+    color: coral;
+}
+.text-box a{
+    text-decoration: none;
+    color: aliceblue;
+    margin: 20px 0;
+    display: inline-block;
+    cursor: pointer;
+    transition: 3s;
+    border-radius: 5px;
+
+}
+.text-box a:hover{
+    background-color: coral;
+}
+
+.info{
+    width: 100%;
+    margin-top: 30px;
+    padding-top: 120px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+h1{
+    color: coral;
+    font-size: 2rem;
+    text-align: center;
+}
+.row{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+
+}
+.row .Information-col{
+    flex-basis: 18cm;
+    text-indent: 1%;
+}
+.Information-col .lady{
+    width: 40%;
+    height: 60vh;
+}*/
+.skill-and-services{
+    width: 100%;
+    padding: 120px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.skill-and-services h1{
+    text-align: center;
+    font-size: 1.5rem;
+    color: coral;
+    display: flex;
+}
+.row{
+    margin-top: 2px 1px;
+    display: flex;
+    justify-content: space-between;
+}
+.row .skills-col{
+    flex-basis: 50%;
+}
+
+.skills-col h2{
+    color: chocolate;
+
+}
+.skills-col img{
+    margin-right: 4%;
+}
+.contact-me{
+    margin-top: 5%;
+    text-align: center;
+}
+.contact-me h1{
+    font-size: 2rem;
+}
+.contact-me a{
+    text-decoration: none;
+    font-size: 2rem;
+    color: aliceblue;
+    background-color: black;
+    margin: 20px 0;
+    display: inline-block;
+    cursor: pointer;
+    transition: 3s;
+    border-radius: 5px;
+ 
+}
+.contact-me a:hover{
+    background-color: coral;
+}
